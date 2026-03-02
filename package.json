@@ -2,5 +2,8 @@
   "dependencies": {
     "gsap": "^3.14.2",
     "lucide-react": "^0.576.0"
+  },
+  "devDependencies": {
+    "vercel": "^50.25.4"
   }
 }

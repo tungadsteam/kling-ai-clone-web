@@ -3,6 +3,7 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import VideoPlayer from './VideoPlayer';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -38,15 +39,11 @@ const ShowcaseSection = () => {
       <h2 className="text-5xl font-bold text-center mb-12">Showcase</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto px-4">
         {videos.map((videoSrc, index) => (
-          <video 
+          <VideoPlayer 
             key={index} 
             src={videoSrc} 
-            autoPlay 
-            loop 
-            muted 
-            playsInline 
             className="showcase-video w-full rounded-lg"
-          ></video>
+          />
         ))}
       </div>
     </section>

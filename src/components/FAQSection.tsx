@@ -2,7 +2,7 @@ import React from 'react';
 
 const FAQSection = () => {
   return (
-    <section className="py-20 max-w-4xl mx-auto">
+    <section id="faq" className="py-20 max-w-4xl mx-auto px-4">
       <h2 className="text-5xl font-bold text-center mb-12">FAQ</h2>
       <div className="space-y-4">
         <div>

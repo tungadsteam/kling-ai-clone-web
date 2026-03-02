@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section className="h-screen flex flex-col justify-center items-center text-center">
+    <section id="home" className="h-screen flex flex-col justify-center items-center text-center">
       <h1 className="text-7xl font-bold mb-4">Unleash Your Imagination</h1>
       <p className="text-xl mb-8">Cinematic AI video generation at your fingertips.</p>
       <video
